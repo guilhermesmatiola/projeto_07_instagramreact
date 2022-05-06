@@ -30,7 +30,9 @@ export default function StorieBox(){
     return(
         <div class="stories">
              {stories.map((stories) => (<Story src={stories.src} user={stories.user}/>))}
-
+             <div class="setinha">
+                <ion-icon name="chevron-forward-circle"></ion-icon>
+            </div>
         </div>
     );
 }

@@ -11,7 +11,7 @@ export default function Post(props){
             <ion-icon name={props.type} class={props.class} onClick={like}></ion-icon>
         );
     }
-
+//
     function like(){
         if(type==outline){
             setType("heart");
